@@ -6,11 +6,9 @@ import ReactL from '../assets/React.png'
 import Redux from '../assets/Redux.png'
 import Tailwind from '../assets/Tailwind Css.png'
 import Bootstrap from '../assets/Bootstrap.png'
-import Nodejs from '../assets/Nodejs.png'
-import Mongodb from '../assets/mongodb.svg'
-import Express from '../assets/Express.png'
+
 import GSAP from '../assets/GSAP.png'
-import NextJs from '../assets/NextJs.png'
+
 
 const About = () => {
   return (

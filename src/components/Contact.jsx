@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react'
+
 import Lottie from 'lottie-react'
 import contact from '../assets/Contact.json'
 import React, { useRef } from 'react';
