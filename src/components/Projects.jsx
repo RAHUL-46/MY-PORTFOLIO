@@ -30,7 +30,7 @@ const Projects = () => {
       title: 'Interior Design ',
       desc: 'I have created this responsive landing page for a Interior Design using React js , Tailwind css ',
       image: estate,
-      live: "#",
+     
       github: "https://github.com/RAHUL-46/HOME-INTERIOR-DESIGN"
     },
     {
