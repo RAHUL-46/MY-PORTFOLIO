@@ -19,37 +19,37 @@ const Testimonial = () => {
           id: 1,
           name: "Emily Johnson",
           rating: 5,
-          text: "The flavors at this restaurant are absolutely incredible! Every dish I've tried has been a delightful experience."
+          text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex in cumque temporibus minus illum! Non!."
         },
         {
           id: 2,
           name: "Michael Chen",
           rating: 4,
-          text: "Great food and excellent service. The staff was very attentive and knowledgeable about the menu."
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus, id explicabo ut nesciunt adipisci!."
         },
         {
           id: 3,
           name: "Sarah Thompson",
           rating: 5,
-          text: "This place is a hidden gem! The attention to detail in both the food presentation and taste is remarkable."
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptates a suscipit fuga. Maiores, porro.."
         },
         {
           id: 4,
           name: "David Rodriguez",
           rating: 5,
-          text: "I've been to many restaurants, but this one stands out. The ambiance, the service, and most importantly, the food are all top-notch."
+          text: "I've been to many websites, but this one stands out. The ambiance, the service all things are  top-notch."
         },
         {
           id: 5,
           name: "Lisa Patel",
           rating: 4,
-          text: "A wonderful dining experience! The fusion of flavors in their signature dishes is truly unique and delightful."
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloremque eos quisquam eum ipsa commodi!"
         }
       ]
 
     return (
-        <div className='py-10 bg-gray-100 relative' id='testimonial'>
-                <h1 className='text-center text-2xl lg:text-4xl font-bold'>What Our Customers Say</h1>
+        <div className='py-10 border-t-2 border-t-white bg-slate-900 relative' id='testimonial'>
+                <h1 className='text-center text-red-500 text-2xl lg:text-4xl font-bold'>Reviews</h1>
             <div className=' max-w-6xl mx-auto py-10 px-5 '>
                 <Swiper
                    style={{
@@ -84,25 +84,25 @@ const Testimonial = () => {
                         testimonials.map((item)=> {
                             return <SwiperSlide key={item.id}>
                             <div className='border border-gray-400 shadow-md shadow-red-500 rounded-lg flex flex-col p-4'>
-                                {item.rating === 4 ? ( <div className='flex'>
-                                    <Star fill='true' />
-                                    <Star fill='true' />
-                                    <Star fill='true' />
-                                    <Star fill='true' />
+                                {item.rating === 4 ? ( <div className='flex '>
+                                    <Star fill='true'  className='text-red-500' />
+                                    <Star fill='true'  className='text-red-500'  />
+                                    <Star fill='true'  className='text-red-500' />
+                                    <Star fill='true'  className='text-red-500' />
                                     <Star />
-                                </div>):( <div className='flex'>
-                                    <Star fill='true' />
-                                    <Star fill='true' />
-                                    <Star fill='true' />
-                                    <Star fill='true' />
-                                    <Star fill='true' />
+                                </div>):( <div className='flex  '>
+                                    <Star fill='true' className='text-red-500'   />
+                                    <Star fill='true' className='text-red-500' />
+                                    <Star fill='true' className='text-red-500' />
+                                    <Star fill='true' className='text-red-500' />
+                                    <Star fill='true' className='text-red-500' />
                                 </div>)}
                                
-                                <p className='py-3'>{item.text}</p>
+                                <p className='py-3 text-gray-200'>{item.text}</p>
                                 <div className='flex justify-between items-center'>
                                   <div>
                                   <h3 className='font-semibold text-red-500 text-lg'>{item.name}</h3>
-                                  <p className='text-sm mt-1'>CEO, Webelite Builders</p>
+                                  <p className='text-sm mt-1 text-gray-200 font-bold'>CEO , Company </p>
                                   </div>
                                   <Quote className='text-red-400'/>
                                 </div>
