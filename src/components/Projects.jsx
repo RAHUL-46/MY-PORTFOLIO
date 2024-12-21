@@ -42,7 +42,7 @@ const Projects = () => {
     },
   
     {
-      title: 'EMP',
+      title: 'EMS',
       desc: 'This is an Employee Management System project which is fully functional with a admin and employee dashboard using react , tailwind css and context api ',
       image: ems,
      
